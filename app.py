@@ -160,8 +160,8 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # Load the trained model
-model = joblib.load('/best_Random_Forest_Classifier_model.h5')
-vectorizer = joblib.load('/tfidf_vectorizer.pkl')
+model = joblib.load("best_Random_Forest_Classifier_model.h5")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 
 # Set page icon and title
