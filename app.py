@@ -160,7 +160,7 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # Load the trained model
-model = joblib.load('models/best_Random_Forest_Classifier_model.h5')
+model = joblib.load('best_Random_Forest_Classifier_model.h5')
 vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 
